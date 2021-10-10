@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("./images/bg.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+  z-index: -1;
+  opacity: 0.95;
+}
