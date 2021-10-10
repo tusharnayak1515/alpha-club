@@ -35,7 +35,7 @@ router.post('/register', [
         let user1 = await User.findOne({username: req.body.username});
         if(user1) { 
             success = false;
-            return res.json({success, error: "This username is associated to another account", status: 400})
+            return res.json({success, error: "This username is already taken", status: 400})
         }
         const salt = await bcrypt.genSalt(10);
         const securePassword = await bcrypt.hash(req.body.password,salt);
