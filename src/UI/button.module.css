@@ -4,7 +4,7 @@
     color: white;
     cursor: pointer;
     outline: none;
-    border: 0.2vw solid rgb(0, 0, 224);
+    border: 0.2vw solid rgb(0, 0, 143);
     border-radius: 1vw;
     font-size: 2vw;
 }
@@ -18,7 +18,7 @@
 @media only screen and (max-width: 480px) {
 
     #btn {
-        padding: 2vw;
+        padding: 2.5vw;
         border-radius: 2vw;
         font-size: 4vw;
     }

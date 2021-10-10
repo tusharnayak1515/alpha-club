@@ -113,7 +113,7 @@
     }
 
     #navbar ul li button {
-        font-size: 4vw;
+        font-size: 5vw;
         border-radius: 2vw;
         padding: 1.2vw 2vw;
     }
@@ -123,7 +123,7 @@
     }
     
     #navbar ul li a {
-        font-size: 4vw;
+        font-size: 5vw;
         border-radius: 2vw;
         padding: 1vw 2vw;
     }
@@ -233,7 +233,7 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     #navbar #logo h2 {
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-left: 4vw;
         cursor: pointer;
     }
@@ -243,13 +243,13 @@
     }
 
     #navbar ul li button {
-        font-size: 1.8vw;
+        font-size: 2vw;
         border-radius: 1vw;
         padding: 0.7vw 1vw;
     }
 
     #navbar ul li a {
-        font-size: 1.8vw;
+        font-size: 2vw;
         border-radius: 1vw;
         padding: 0.5vw 1vw;
     }
